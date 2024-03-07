@@ -1,4 +1,4 @@
-# Chat flow
+# Agent Chat flow
 Chat flow is designed for conversational application development, building upon the capabilities of standard flow and providing enhanced support for chat inputs/outputs and chat history management. With chat flow, you can easily create a chatbot that handles chat input and output.
 
 ## Create connection for LLM tool to use
@@ -21,18 +21,6 @@ Note in [flow.dag.yaml](flow.dag.yaml) we are using connection named `open_ai_co
 pf connection show --name open_ai_connection
 ```
 Please refer to connections [document](https://promptflow.azurewebsites.net/community/local/manage-connections.html) and [example](https://github.com/microsoft/promptflow/tree/main/examples/connections) for more details.
-
-## Develop a chat flow
-
-The most important elements that differentiate a chat flow from a standard flow are **Chat Input**, **Chat History**, and **Chat Output**.
-
-- **Chat Input**: Chat input refers to the messages or queries submitted by users to the chatbot. Effectively handling chat input is crucial for a successful conversation, as it involves understanding user intentions, extracting relevant information, and triggering appropriate responses.
-
-- **Chat History**: Chat history is the record of all interactions between the user and the chatbot, including both user inputs and AI-generated outputs. Maintaining chat history is essential for keeping track of the conversation context and ensuring the AI can generate contextually relevant responses. Chat History is a special type of chat flow input, that stores chat messages in a structured format.
-
-- **Chat Output**: Chat output refers to the AI-generated messages that are sent to the user in response to their inputs. Generating contextually appropriate and engaging chat outputs is vital for a positive user experience.
-
-A chat flow can have multiple inputs, but Chat History and Chat Input are required inputs in chat flow.
 
 ## Interact with chat flow
 
