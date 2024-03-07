@@ -1,9 +1,10 @@
-#Copyright Red Team Template for Azure OpenAI Service
+# Copyright Red Team Template for Azure OpenAI Service
 
 1. **Prerequisites**:
     - Ensure you have the following prerequisites installed:
         - **Python**: Make sure you have Python 3.9 or later installed.
         - **OpenAI Resource**: Obtain an API key or access to the OpenAI service.
+          -  **Model Deployment**: Default content filter enabled on model deployment. 
         - **Promptflow**: Install the `promptflow` package using `pip install promptflow` and also install `promptflow-tools`.
 
 2. **Adding Metaprompt to Assistant System Message**:
