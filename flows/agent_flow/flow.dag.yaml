@@ -9,7 +9,7 @@ inputs:
   question:
     type: string
     is_chat_input: true
-    default: hello
+    default: ""
 outputs:
   answer:
     type: string

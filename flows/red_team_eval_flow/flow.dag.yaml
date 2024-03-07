@@ -11,6 +11,10 @@ outputs:
     type: string
     reference: ${aggregate.output}
     is_chat_output: true
+  eval_result:
+    type: string
+    reference: ${red_team_eval.output}
+    is_chat_output: false
 nodes:
 - name: red_team_eval
   type: llm

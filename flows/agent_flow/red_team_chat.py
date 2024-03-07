@@ -46,7 +46,31 @@ def my_python_tool(modelname:str,
             )
     except Exception as e:
         err = e.body
-        return {"error": err['message'], 'type': err['type'], 'param': err['param'], 'code': err['code'], 'status': err['status']}
+        if 'message' in err:
+            error_message = err['message']
+        else:
+            error_message = ''
+        
+        if 'type' in err:
+            error_type = err['type']
+        else:
+            error_type = ''
+        
+        if 'param' in err:
+            error_param = err['param']
+        else:
+            error_param = ''
+        
+        if 'code' in err:
+            error_code = err['code']
+        else:
+            error_code = ''
+        
+        if 'status' in err:
+            error_status = err['status']
+        else:
+            error_status = ''
+        return {"error": error_message, 'type': error_type, 'param': error_param, 'code': error_code, 'status': error_status}
     
     return {"output":completion.choices[0].message.content}
 
