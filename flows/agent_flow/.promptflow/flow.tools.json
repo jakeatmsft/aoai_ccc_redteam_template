@@ -57,6 +57,17 @@
       },
       "source": "red_team_chat.py",
       "function": "my_python_tool"
+    },
+    "history_formatter.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "text": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "history_formatter.jinja2"
     }
   }
 }

@@ -6,6 +6,9 @@ inputs:
     type: string
     default: I'm sorry, but I can't assist with that request.
     is_chat_input: true
+  questionid:
+    type: string
+    default: ""
 outputs:
   results:
     type: string
@@ -15,6 +18,9 @@ outputs:
     type: string
     reference: ${red_team_eval.output}
     is_chat_output: false
+  questionid:
+    type: string
+    reference: ${inputs.questionid}
 nodes:
 - name: red_team_eval
   type: llm

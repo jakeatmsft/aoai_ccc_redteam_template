@@ -9,12 +9,18 @@ inputs:
   question:
     type: string
     is_chat_input: true
-    default: ""
+    default: test
+  questionid:
+    type: string
+    default: "1"
 outputs:
   answer:
     type: string
     reference: ${red_team_chat.output}
     is_chat_output: true
+  questionid:
+    type: string
+    reference: ${inputs.questionid}
 nodes:
 - name: meta_prompt
   type: prompt
