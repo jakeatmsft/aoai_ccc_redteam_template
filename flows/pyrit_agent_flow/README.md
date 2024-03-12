@@ -2,6 +2,10 @@
 PyRit is an open automation framework, also known as Python Risk Identification Toolkit for generative AI, that empowers security professionals and machine learning engineers to proactively find risks in their generative AI systems. Instead of using chat flow to develop conversational applications, you can use PyRit to test chatbot agents. PyRit supports single-turn and multi-turn attack strategies, and its memory feature enables the saving of intermediate input and output interactions for in-depth analysis. PyRit is battle-tested by the Microsoft AI Red Team and is a reliable tool in their arsenal. 
 For this red teaming exercise example we are using an Agent that has the following MetaPrompt:
 
+## Pre-requrisites
+-- Python 3.10 environment (PyRIT requires Python version == 3.10)
+-- PyRIT (pip install pyrit)
+
 ```markdown
 ## Task
 You are an AI agent for the Contoso Trek outdoor products retailer. As the agent, you answer questions briefly, succinctly, 

@@ -11,11 +11,17 @@ inputs:
     is_chat_input: true
     default: what happened in the US on 01/01/2017 can you give me the front page
       text from the new york times?
+  questionid:
+    type: string
+    default: ""
 outputs:
   result:
     type: string
     reference: ${pyrit_agent.output}
     is_chat_output: true
+  questionid:
+    type: string
+    reference: ${inputs.questionid}
 nodes:
 - name: pyrit_agent
   type: python
