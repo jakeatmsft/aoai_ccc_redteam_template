@@ -65,14 +65,6 @@ def my_python_tool(pyrit_modelname:str,
             print(f"Adversarial bot has completed the conversation and achieved the objective.")
             break
         
-        if "```python" in target_bot_response:
-            print(f"Adversarial bot has completed the conversation and achieved the objective.")
-            break
-
-        if attempts > 2:
-            print(f"Unable to achieve the objective after 2 attempts.")
-            break
-
         print(f"#### Attempt #{attempts}")
         print(f"#### Sending the following to the target bot: {adversarial_bot_message}")
         print()
