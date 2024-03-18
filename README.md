@@ -56,8 +56,6 @@
     - Assess the quality, accuracy, and appropriateness of the responses.
     - Make necessary adjustments to improve the system's performance.
 
-Remember to validate the responses even when using templates, as each scenario may have unique requirements. 🚀🔍
-
 Source: 
 - [microsoft/promptflow: Build high-quality LLM apps - GitHub](https://github.com/microsoft/promptflow)
 - [Prompt flow — Prompt flow documentation](https://microsoft.github.io/promptflow/index.html)
