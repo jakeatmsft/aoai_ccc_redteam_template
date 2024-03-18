@@ -55,6 +55,8 @@
     
 
 5. **Evaluate Results**:
+<img width="383" alt="image" src="https://github.com/jakeatmsft/aoai_ccc_redteam_template/assets/47987698/000906dd-9912-4f60-80b8-cbf864081eb9">
+
     - Analyze the output from the red teaming prompts.
     - Look for any signs of jailbreak (undesirable behavior) or potential leaking of copyrighted data.
     - Assess the quality, accuracy, and appropriateness of the responses.
