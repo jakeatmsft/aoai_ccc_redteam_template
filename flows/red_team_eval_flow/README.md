@@ -1,5 +1,5 @@
 # Red Team Evaluation Flow
-<img width="383" alt="image" src="https://github.com/jakeatmsft/aoai_ccc_redteam_template/assets/47987698/000906dd-9912-4f60-80b8-cbf864081eb9">
+![alt text](<../../assets/Screenshot 2024-03-18 152531.png>)
    
 This flow provides a template for evaluation of red team experiments again an AI agent. 
 
