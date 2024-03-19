@@ -56,12 +56,13 @@
     
 
    - ### [Evaluate Results](/flows/red_team_eval_flow):
-![alt text](<assets/Screenshot 2024-03-18 152531.png>) [alt text](README.md)
+![alt text](<assets/Screenshot 2024-03-18 152531.png>)
 
   - Analyze the output from the red teaming prompts.
   - Look for any signs of jailbreak (undesirable behavior) or potential leaking of copyrighted data.
   - Assess the quality, accuracy, and appropriateness of the responses.
   - Make necessary adjustments to improve the system's performance.
+  - Log results for validation of future AI Agent performance.
 
 Source: 
 - [microsoft/promptflow: Build high-quality LLM apps - GitHub](https://github.com/microsoft/promptflow)
