@@ -1,10 +1,13 @@
-# PyRIT Promptflow
+# Adversarial Agent Flow
+
+<img width="386" alt="image" src="https://github.com/jakeatmsft/aoai_ccc_redteam_template/assets/47987698/a2e61ab1-0a16-42d2-a6ca-504ddd6fb6f2">
+   
 PyRit is an open automation framework, also known as Python Risk Identification Toolkit for generative AI, that empowers security professionals and machine learning engineers to proactively find risks in their generative AI systems. Instead of using chat flow to develop conversational applications, you can use PyRit to test chatbot agents. PyRit supports single-turn and multi-turn attack strategies, and its memory feature enables the saving of intermediate input and output interactions for in-depth analysis. PyRit is battle-tested by the Microsoft AI Red Team and is a reliable tool in their arsenal. 
 For this red teaming exercise example we are using an Agent that has the following MetaPrompt:
 
-## Pre-requrisites
--- Python 3.10 environment (PyRIT requires Python version == 3.10)
--- PyRIT (pip install pyrit)
+## Pre-requisites
+- Python 3.10 environment (PyRIT requires Python version == 3.10.XX)
+- PyRIT (pip install pyrit)
 
 ```markdown
 ## Task

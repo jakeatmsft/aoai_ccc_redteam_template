@@ -1,4 +1,7 @@
 # Agent Chat flow
+
+<img width="379" alt="image" src="https://github.com/jakeatmsft/aoai_ccc_redteam_template/assets/47987698/0bb358ee-24fc-40a3-b341-44dabdb5e880">
+   
 Chat flow is designed for conversational application development, building upon the capabilities of standard flow and providing enhanced support for chat inputs/outputs and chat history management. With chat flow, you can easily create a chatbot that handles chat input and output.
 
 For this red teaming exercise example we are using an Agent that has the following MetaPrompt:
