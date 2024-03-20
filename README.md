@@ -41,7 +41,7 @@
 
 3. **Run Red Teaming Prompts**:
   - ### [Metaprompt Evaluation](/flows/agent_flow)
-![alt text](<assets/Screenshot 2024-03-18 142831.png>) [alt text](README.md)
+![alt text](<assets/Screenshot 2024-03-18 142831.png>) 
    
    - Execute red teaming prompts to thoroughly test the assistant's behavior.
    - Use a variety of challenging prompts that cover different scenarios and edge cases.
